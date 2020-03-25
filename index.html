@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fetch Photos</title>
+</head>
+<body>
+    <header id="search-header">
+        <form id="search-form" action="#">
+                <input id="search-field" class="search-field" type="text" placeholder="Search Word..">           
+                <section>
+                    <select id="numbers-displayed" class="numbers-displayed" name="numbers-displayed">
+                    <option value="100">Numbers Displayed</option>
+                    <option value="50">50</option>
+                    <option value="150">150</option>
+                    <option value="200">200</option>
+                    <option value="350">350</option>
+                    </select>
+                        
+                <input id="search-button" class="search-button" type="submit">
+            </section>
+        </form>
+    </header>
+    <section id="gallery" class="image-gallery"></section>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
